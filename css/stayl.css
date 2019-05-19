@@ -1,0 +1,67 @@
+/* Start Body */
+body{
+    background-color: rgb(61, 61, 61);
+    color: rgb(0, 0, 0);    
+    font-family: sans-serif;
+    font-size: 1,5px;
+    margin: 0;
+    padding: 0;}
+/*  End Body */
+    
+/* Start Debug */
+.bg-yellow{
+    background-color: rgb(255, 255, 255)
+}    
+.bg-green{
+    background-color: rgb(161, 161, 161)
+}
+/* End Debug */
+
+/* Start Countainer */
+.countainer{
+    margin: 10px;
+    overflow: auto;
+    width: 90%;
+}
+/* End Countainer */
+
+/* Start Logo */
+.logo {
+    text-align: cneter;
+}
+/* End Logo */
+
+/* Start Menu Primer */
+.menu-primer ul {
+    background-color:rgb(179, 179, 179);
+    border-radius: 4px;
+    box-shadow:
+        0 3px 5px -1px rgba(0,0,0,.2),
+        0 6px 10px 0 rgba(0,0,0,.14),
+        0 1px 18px 0 rgba(0,0,0,.12); 
+}
+
+.menu-primer li {
+    border-right: 1px solid #d1d5da;
+    display: inline-block;
+}
+
+.menu-primer a{
+    color:#4d4d4d;
+    font-size:13px;
+    letter-spacing:1px;
+    padding:10px 20px;
+    text-transform:unpercase;
+}
+.menu-primer a:hover {
+    background-color: rgb(80, 75, 75);
+    color:lightgray;
+    text-decoration: none;
+}
+
+.menu-primer .active{
+    background-color: aliceblue;
+    color: rgba(58, 58, 58, 0.500)
+}
+/* End Menu Primer */
+
